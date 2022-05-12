@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ReclameApp</string>
+    <string name="txtDoc">Documento</string>
+    <string name="txtSlogan">Apoiando a Solução</string>
+    <string name="txtPassword">Senha</string>
+    <string name="txtLogin">Entrar</string>
+    <string name="txtNoRegister">Não tem cadastro?</string>
+    <string name="txtSignUp">Cadastre-se</string>
+    <string name="txtName">Nome</string>
+    <string name="txtDescription">Descrição</string>
+    <string name="txtEdit">Editar</string>
+    <string name="txtDelete">Apagar</string>
+    <string name="txtCreate">Cadastrar</string>
+    <string name="txtChangeLang">Trocar Idioma</string>
+    <string name="txtCrudTip">Selecione um item da lista para editá-lo ou apagá-lo</string>
+</resources>
