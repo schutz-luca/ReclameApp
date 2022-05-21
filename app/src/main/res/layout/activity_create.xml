@@ -21,6 +21,7 @@
                 android:id="@+id/btnBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="goBack"
                 app:srcCompat="@drawable/backicon" />
 
             <Space
@@ -41,7 +42,7 @@
                     android:id="@+id/txtAppName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ReclameApp"
+                    android:text="@string/app_name"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="30sp"
@@ -67,12 +68,58 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
-            <Space
-                android:layout_width="30dp"
-                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/btnTakePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="capturaFoto"
+                android:text="@string/txtTakePic" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/imageicon" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/edtDescriptionEdit"
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/txtDescription"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#C6C6C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCreateIssue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="gravar"
+                android:text="@string/txtCreate" />
         </TableRow>
 
     </LinearLayout>

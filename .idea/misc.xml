@@ -3,13 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/lucas/dev/ReclameApp-master/app/src/main/res/layout/activity_create.xml" value="0.25" />
-        <entry key="..\:/Users/lucas/dev/ReclameApp-master/app/src/main/res/layout/activity_list.xml" value="0.25" />
-        <entry key="..\:/Users/lucas/dev/ReclameApp-master/app/src/main/res/layout/activity_main.xml" value="0.209375" />
-        <entry key="..\:/Users/lucas/dev/ReclameApp-master/app/src/main/res/layout/activity_sign_up.xml" value="0.209375" />
-        <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/activity_list.xml" value="0.371875" />
+        <entry key="..\:/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.36615384615384616" />
+        <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/activity_create.xml" value="0.371875" />
+        <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/activity_language.xml" value="0.371875" />
+        <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/activity_list.xml" value="0.33" />
         <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/activity_main.xml" value="0.371875" />
         <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/activity_sign_up.xml" value="0.371875" />
+        <entry key="..\:/Users/lucas/dev/android studio/ReclameApp/app/src/main/res/layout/row.xml" value="0.36615384615384616" />
       </map>
     </option>
   </component>

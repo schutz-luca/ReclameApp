@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReclameApp</string>
+    <string name="txtDoc">Document</string>
+    <string name="txtSlogan">Supporting the Solution</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtLogin">Sign In</string>
+    <string name="txtNoRegister">Don\'t have a registration?</string>
+    <string name="txtSignUp">Register</string>
+    <string name="txtName">Name</string>
+    <string name="txtDescription">Description</string>
+    <string name="txtEdit">Edit</string>
+    <string name="txtDelete">Delete</string>
+    <string name="txtCreate">Create</string>
+    <string name="txtChangeLang">Change language</string>
+    <string name="txtCrudTip">Select an item from the list to edit or delete it</string>
+    <string name="txtTakePic">Take the Picture</string>
+    <string name="txtSync">Sync</string>
+    <string name="txtSelectLangtText">Select system language</string>
+    <string name="txtPt">Portuguese</string>
+    <string name="txtEn">English</string>
+    <string name="txtEs">Spanish</string>
+    <string name="txtFr">French</string>
+    <string name="txtDe">German</string>
+    <string name="txtRu">Russian</string>
+    <string name="txtOk">OK</string>
+    <string name="txtSuccessRegister">Registered successfully!</string>
+    <string name="txtFailLogin">Incorrect password or document</string>
+    <string name="txtError">Error</string>
+    <string name="txtSuccessEdit">Updated successfully!</string>
+    <string name="txtSuccessDelete">Deleted successfully!</string>
+    <string name="txtSuccessSync">Synced succefully!</string>
+    <string name="txtSuccessCreate">Complaint  saved succefully!</string>
+    <string name="txtDayHour">Day/Hour</string>
+    <string name="txtStatus">Status</string>
+    <string name="txtComplaints">Complaints</string>
+</resources>
