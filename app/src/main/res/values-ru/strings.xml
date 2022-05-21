@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReclameApp</string>
+    <string name="txtDoc">ответ</string>
+    <string name="txtSlogan">Поддержка решения</string>
+    <string name="txtPassword">Пароль</string>
+    <string name="txtLogin">Авторизоваться</string>
+    <string name="txtNoRegister">Нет регистрации?</string>
+    <string name="txtSignUp">регистр</string>
+    <string name="txtName">Имя</string>
+    <string name="txtDescription">Описание</string>
+    <string name="txtEdit">Редактировать</string>
+    <string name="txtDelete">Удалить</string>
+    <string name="txtCreate">регистр</string>
+    <string name="txtChangeLang">изменение языка</string>
+    <string name="txtCrudTip">Выберите элемент из списка, чтобы изменить или удалить его</string>
+    <string name="txtTakePic">Сделать фото</string>
+    <string name="txtSync">Синхронизировать</string>
+    <string name="txtSelectLangtText">Выберите язык системы</string>
+    <string name="txtPt">португальский</string>
+    <string name="txtEn">Английский</string>
+    <string name="txtEs">испанский</string>
+    <string name="txtFr">Французский</string>
+    <string name="txtDe">Немецкий</string>
+    <string name="txtRu">Русский</string>
+    <string name="txtOk">ХОРОШО</string>
+    <string name="txtSuccessRegister">Успешно зарегистрирован!</string>
+    <string name="txtFailLogin">Неверный пароль или имя пользователя</string>
+    <string name="txtError">Ошибка</string>
+    <string name="txtSuccessEdit">Успешно отредактировано!</string>
+    <string name="txtSuccessDelete">Успешно удалено!</string>
+    <string name="txtSuccessSync">Успешно синхронизировано!</string>
+    <string name="txtSuccessCreate">Жалоба успешно сохранена!</string>
+    <string name="txtDayHour">день/время</string>
+    <string name="txtStatus">Статус</string>
+    <string name="txtComplaints">Претензии</string>
+</resources>

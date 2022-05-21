@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReclameApp</string>
+    <string name="txtDoc">Document</string>
+    <string name="txtSlogan">Soutenir la solution</string>
+    <string name="txtPassword">Mot de passe</string>
+    <string name="txtLogin">Connexion</string>
+    <string name="txtNoRegister">Vous n\'avez pas d\'inscription?</string>
+    <string name="txtSignUp">S\'inscrire</string>
+    <string name="txtName">Nom</string>
+    <string name="txtDescription">La description</string>
+    <string name="txtEdit">Éditer</string>
+    <string name="txtDelete">Supprimer</string>
+    <string name="txtCreate">S\'inscrire</string>
+    <string name="txtChangeLang">Changer de langue</string>
+    <string name="txtCrudTip">Sélectionnez un élément dans la liste pour le modifier ou le supprimer</string>
+    <string name="txtTakePic">Prendre une photo</string>
+    <string name="txtSync">Synchroniser</string>
+    <string name="txtSelectLangtText">Sélectionnez la langue du système</string>
+    <string name="txtPt">Portugais</string>
+    <string name="txtEn">Anglais</string>
+    <string name="txtEs">Espagnol</string>
+    <string name="txtFr">Français</string>
+    <string name="txtDe">Allemand</string>
+    <string name="txtRu">Russe</string>
+    <string name="txtOk">D\'ACCORD</string>
+    <string name="txtSuccessRegister">Enregistré avec succès!</string>
+    <string name="txtFailLogin">Mot de passe ou nom d\'utilisateur incorrect</string>
+    <string name="txtError">Erreur</string>
+    <string name="txtSuccessEdit">Modifié avec succès!</string>
+    <string name="txtSuccessDelete">Suppression réussie!</string>
+    <string name="txtSuccessSync">Synchronisation réussie!</string>
+    <string name="txtSuccessCreate">Réclamation enregistrée avec succès!</string>
+    <string name="txtDayHour">Jour</string>
+    <string name="txtStatus">Statut</string>
+    <string name="txtComplaints">Ansprüche</string>
+</resources>

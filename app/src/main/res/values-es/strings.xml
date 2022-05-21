@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReclameApp</string>
+    <string name="txtDoc">Documento</string>
+    <string name="txtSlogan">Apoyando la Solución</string>
+    <string name="txtPassword">Clave</string>
+    <string name="txtLogin">Iniciar sesión</string>
+    <string name="txtNoRegister">¿No tienes un registro?</string>
+    <string name="txtSignUp">Registro</string>
+    <string name="txtName">Nombre</string>
+    <string name="txtDescription">Descripción</string>
+    <string name="txtEdit">Editar</string>
+    <string name="txtDelete">Borrar</string>
+    <string name="txtCreate">Registrar</string>
+    <string name="txtChangeLang">Cambiar idioma</string>
+    <string name="txtCrudTip">Seleccione un elemento de la lista para editarlo o eliminarlo</string>
+    <string name="txtTakePic">Toma una foto</string>
+    <string name="txtSync">Sincronizar</string>
+    <string name="txtSelectLangtText">Seleccione el idioma del sistema</string>
+    <string name="txtPt">Portugués</string>
+    <string name="txtEn">Inglés</string>
+    <string name="txtEs">Español</string>
+    <string name="txtFr">Francés</string>
+    <string name="txtDe">Alemán</string>
+    <string name="txtRu">Ruso</string>
+    <string name="txtOk">OK</string>
+    <string name="txtSuccessRegister">¡Registrado correctamente!</string>
+    <string name="txtFailLogin">Contraseña o documento de usuario incorrecto</string>
+    <string name="txtError">Error</string>
+    <string name="txtSuccessEdit">¡Editado con éxito!</string>
+    <string name="txtSuccessDelete">¡Editado con éxito!</string>
+    <string name="txtSuccessSync">¡Sincronizado con éxito!</string>
+    <string name="txtSuccessCreate">¡Reclamación guardada con éxito!</string>
+    <string name="txtDayHour">Día/Tiempo</string>
+    <string name="txtStatus">Status</string>
+    <string name="txtComplaints">Reclamaciónes</string>
+</resources>

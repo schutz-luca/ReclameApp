@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2C2C2C"
-    tools:context=".MainActivity">
+    tools:context=".CreateActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,15 +17,26 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goBack"
+                app:srcCompat="@drawable/backicon" />
+
+            <Space
+                android:layout_width="48dp"
+                android:layout_height="wrap_content" />
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="60dp" />
+                    android:layout_height="30dp" />
 
                 <TextView
                     android:id="@+id/txtAppName"
@@ -34,7 +45,7 @@
                     android:text="@string/app_name"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
-                    android:textSize="38sp"
+                    android:textSize="30sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -42,94 +53,74 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/txtSlogan"
-                    android:textColor="#FFFFFF"
-                    android:textSize="16sp" />
+                    android:textColor="#FFFFFF" />
 
                 <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
             </LinearLayout>
 
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <EditText
-                android:id="@+id/edtDoc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/txtDoc"
-                android:inputType="textPersonName"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#C8C8C8" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <EditText
-                android:id="@+id/edtPassword"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/txtPassword"
-                android:inputType="textPassword"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#C8C8C8" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <Button
-                android:id="@+id/btnSignUp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="login"
-                android:text="@string/txtLogin" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
             <Space
-                android:layout_width="wrap_content"
-                android:layout_height="60dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/txtNoRegister"
-                android:textColor="#FFFFFF" />
-
-            <Space
-                android:layout_width="20dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnTakePic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="openSignUp"
-                android:text="@string/txtSignUp" />
+                android:onClick="capturaFoto"
+                android:text="@string/txtTakePic" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/imageicon" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/edtDescriptionEdit"
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/txtDescription"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#C6C6C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCreateIssue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="gravar"
+                android:text="@string/txtCreate" />
         </TableRow>
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

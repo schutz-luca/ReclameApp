@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReclameApp</string>
+    <string name="txtDoc">Dokumentieren</string>
+    <string name="txtSlogan">Unterstützung der Lösung</string>
+    <string name="txtPassword">Passwort</string>
+    <string name="txtLogin">Einloggen</string>
+    <string name="txtNoRegister">Sie haben keine Registrierung?</string>
+    <string name="txtSignUp">RegistSie haben keine Registrierung?rieren</string>
+    <string name="txtName">Registrieren</string>
+    <string name="txtDescription">Beschreibung</string>
+    <string name="txtEdit">Bearbeiten</string>
+    <string name="txtDelete">Löschen</string>
+    <string name="txtCreate">Registrieren</string>
+    <string name="txtChangeLang">Sprache ändern</string>
+    <string name="txtCrudTip">Wählen Sie ein Element aus der Liste aus, um es zu bearbeiten oder zu löschen</string>
+    <string name="txtTakePic">Machen Sie ein Foto</string>
+    <string name="txtSync">Synchronisieren</string>
+    <string name="txtSelectLangtText">Systemsprache auswählen</string>
+    <string name="txtPt">Portugiesisch</string>
+    <string name="txtEn">Englisch</string>
+    <string name="txtEs">Spanisch</string>
+    <string name="txtFr">Französisch</string>
+    <string name="txtDe">Deutsch</string>
+    <string name="txtRu">Russisch</string>
+    <string name="txtOk">OK</string>
+    <string name="txtSuccessRegister">Erfolgreich registriert!</string>
+    <string name="txtFailLogin">Falsches Passwort oder Benutzername</string>
+    <string name="txtError">Fehler</string>
+    <string name="txtSuccessEdit">Erfolgreich bearbeitet!</string>
+    <string name="txtSuccessDelete">Erfolgreich entfernt!</string>
+    <string name="txtSuccessSync">Erfolgreich synchronisiert!</string>
+    <string name="txtSuccessCreate">Beschwerde erfolgreich gespeichert!</string>
+    <string name="txtDayHour">Tageszeit</string>
+    <string name="txtStatus">Status</string>
+    <string name="txtComplaints">Ansprüche</string>
+</resources>

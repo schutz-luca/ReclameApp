@@ -13,4 +13,24 @@
     <string name="txtCreate">Cadastrar</string>
     <string name="txtChangeLang">Trocar Idioma</string>
     <string name="txtCrudTip">Selecione um item da lista para editá-lo ou apagá-lo</string>
+    <string name="txtTakePic">Tirar a Foto</string>
+    <string name="txtSync">Sincronizar</string>
+    <string name="txtSelectLangtText">Selecione o idioma do sistema</string>
+    <string name="txtPt">Português</string>
+    <string name="txtEn">Inglês</string>
+    <string name="txtEs">Espanhol</string>
+    <string name="txtFr">Francês</string>
+    <string name="txtDe">Alemão</string>
+    <string name="txtRu">Russo</string>
+    <string name="txtOk">OK</string>
+    <string name="txtSuccessRegister">Cadastrado com sucesso!</string>
+    <string name="txtFailLogin">Senha ou usuário incorreto</string>
+    <string name="txtError">Erro</string>
+    <string name="txtSuccessEdit">Editado com sucesso!</string>
+    <string name="txtSuccessDelete">Removido com sucesso!</string>
+    <string name="txtSuccessSync">Sincronizado com sucesso!</string>
+    <string name="txtComplaints">Reclamações</string>
+    <string name="txtSuccessCreate">Reclamação salva com sucesso!</string>
+    <string name="txtDayHour">Dia/Hora</string>
+    <string name="txtStatus">Status</string>
 </resources>

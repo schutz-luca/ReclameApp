@@ -11,7 +11,10 @@
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:background="#00FFFFFF"
+        android:gravity="center"
         android:orientation="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:verticalScrollbarPosition="defaultPosition"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -24,6 +27,7 @@
                 android:id="@+id/btnBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="goBack"
                 app:srcCompat="@drawable/logouticon" />
 
             <Space
@@ -44,7 +48,7 @@
                     android:id="@+id/txtAppName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ReclameApp"
+                    android:text="@string/app_name"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="30sp"
@@ -79,10 +83,36 @@
                 android:layout_height="match_parent"
                 android:ems="10"
                 android:gravity="start|top"
-                android:hint="Descrição"
+                android:hint="@string/txtDescription"
                 android:inputType="textMultiLine"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#C6C6C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnChangeLang"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="openChangeLang"
+                android:text="@string/txtChangeLang"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="sync"
+                android:text="@string/txtSync"
+                android:textSize="12sp" />
         </TableRow>
 
         <TableRow
@@ -90,77 +120,74 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <ImageView
-                android:id="@+id/imgView"
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                app:srcCompat="@drawable/imageicon" />
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:onClick="openCreate"
+                android:text="@string/txtCreate"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:onClick="update"
+                android:text="@string/txtEdit"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:onClick="delete"
+                android:text="@string/txtDelete"
+                android:textSize="12sp" />
+
         </TableRow>
 
-        <TableRow
+        <Space
             android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="360dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal">
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCrudTip"
+                android:textColor="#D1D1D1" />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableRow
+            android:layout_width="360dp"
+            android:layout_height="match_parent">
+
             <ListView
                 android:id="@+id/listItems"
-                android:layout_width="260dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#2E2E2E"
+                android:background="#65404040"
                 android:cacheColorHint="#FFFFFF">
 
             </ListView>
-
-            <TableRow
-                android:layout_width="10dp"
-                android:layout_height="match_parent" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txtCrudTip"
-                    android:textColor="#D1D1D1" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <Button
-                    android:id="@+id/btnEdit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txtEdit" />
-
-                <Button
-                    android:id="@+id/btnDelete"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txtDelete" />
-
-                <Button
-                    android:id="@+id/btnCreate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txtCreate" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp" />
-
-                <Button
-                    android:id="@+id/btnChangeLang"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txtChangeLang" />
-
-            </LinearLayout>
         </TableRow>
 
     </LinearLayout>
